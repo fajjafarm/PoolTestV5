@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class RoutingController extends Controller
 {
@@ -43,7 +43,7 @@ class RoutingController extends Controller
      */
     public function secondLevel(Request $request, $first, $second)
     {
-        return view($first . '.' . $second);
+        return view($first.'.'.$second);
     }
 
     /**
@@ -51,6 +51,6 @@ class RoutingController extends Controller
      */
     public function thirdLevel(Request $request, $first, $second, $third)
     {
-        return view($first . '.' . $second . '.' . $third);
+        return view($first.'.'.$second.'.'.$third);
     }
 }
