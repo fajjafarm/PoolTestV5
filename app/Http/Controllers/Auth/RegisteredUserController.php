@@ -13,7 +13,7 @@ use Illuminate\Validation\Rules;
 
 class RegisteredUserController extends Controller
 {
-      /**
+    /**
      * Display the registration view.
      *
      * @return \Illuminate\View\View
@@ -26,7 +26,6 @@ class RegisteredUserController extends Controller
     /**
      * Handle an incoming registration request.
      *
-     * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\RedirectResponse
      *
      * @throws \Illuminate\Validation\ValidationException
